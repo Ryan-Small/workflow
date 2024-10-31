@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run build
-        run: npm run build --base-href /workflow/
+        run: npm run build -- --base-href /workflow/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
